@@ -48,6 +48,106 @@ $(document).ready(function () {
   }
 });
 
+$(document).ready(function () {
+  var box = $("#hour-11");
+  var boxTime = 11;
+
+  if (boxTime === time) {
+    $(box).addClass("row time-block present");
+  } else if (boxTime < time) {
+    $(box).addClass("row time-block past");
+  } else {
+    $(box).addClass("row time-block future");
+  }
+});
+
+
+$(document).ready(function () {
+  var box = $("#hour-12");
+  var boxTime = 12;
+
+  if (boxTime === time) {
+    $(box).addClass("row time-block present");
+  } else if (boxTime < time) {
+    $(box).addClass("row time-block past");
+  } else {
+    $(box).addClass("row time-block future");
+  }
+});
+
+
+$(document).ready(function () {
+  var box = $("#hour-1");
+  var boxTime = 13;
+
+  if (boxTime === time) {
+    $(box).addClass("row time-block present");
+  } else if (boxTime < time) {
+    $(box).addClass("row time-block past");
+  } else {
+    $(box).addClass("row time-block future");
+  }
+});
+
+
+$(document).ready(function () {
+  var box = $("#hour-2");
+  var boxTime = 14;
+
+  if (boxTime === time) {
+    $(box).addClass("row time-block present");
+  } else if (boxTime < time) {
+    $(box).addClass("row time-block past");
+  } else {
+    $(box).addClass("row time-block future");
+  }
+});
+
+
+
+$(document).ready(function () {
+  var box = $("#hour-3");
+  var boxTime = 15;
+
+  if (boxTime === time) {
+    $(box).addClass("row time-block present");
+  } else if (boxTime < time) {
+    $(box).addClass("row time-block past");
+  } else {
+    $(box).addClass("row time-block future");
+  }
+});
+
+
+$(document).ready(function () {
+  var box = $("#hour-4");
+  var boxTime = 16;
+
+  if (boxTime === time) {
+    $(box).addClass("row time-block present");
+  } else if (boxTime < time) {
+    $(box).addClass("row time-block past");
+  } else {
+    $(box).addClass("row time-block future");
+  }
+});
+
+
+
+$(document).ready(function () {
+  var box = $("#hour-5");
+  var boxTime = 17;
+
+  if (boxTime === time) {
+    $(box).addClass("row time-block present");
+  } else if (boxTime < time) {
+    $(box).addClass("row time-block past");
+  } else {
+    $(box).addClass("row time-block future");
+  }
+});
+
+
 $(function () {
   // TODO: Add a listener for click events on the save button. This code should
   // use the id in the containing time-block as a key to save the user input in
