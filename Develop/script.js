@@ -3,7 +3,50 @@
 // in the html.
 var today = dayjs().format('MMMM, d, YYYY');
 
+var time = dayjs().hour()
+
+console.log(time);
+
 $('#currentDay').text(today);
+
+
+
+$(function () {
+if (time === 5) {
+   console.log("yes")
+ } else {
+  console.log("no")
+ } 
+
+
+} );
+
+$(document).ready(function () {
+  var box = $("#hour-9");
+  var boxTime = 9;
+
+  if (boxTime === time) {
+    $(box).addClass("row time-block present");
+  } else if (boxTime < time) {
+    $(box).addClass("row time-block past");
+  } else {
+    $(box).addClass("row time-block future");
+  }
+});
+
+
+$(document).ready(function () {
+  var box = $("#hour-10");
+  var boxTime = 10;
+
+  if (boxTime === time) {
+    $(box).addClass("row time-block present");
+  } else if (boxTime < time) {
+    $(box).addClass("row time-block past");
+  } else {
+    $(box).addClass("row time-block future");
+  }
+});
 
 $(function () {
   // TODO: Add a listener for click events on the save button. This code should
