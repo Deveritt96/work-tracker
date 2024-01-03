@@ -6,7 +6,7 @@ An event tracker used to manage your day at work. It is color coded to help you 
 
 ## Screenshot
 
-
+<img src="assets\image.png" />
 
 
 ## installation
